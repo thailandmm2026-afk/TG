@@ -49,15 +49,12 @@ API_ID = 35429420
 API_HASH = "0f2cf1a83944dc9c3b33398d0a07215d"
 BOT_TOKEN = "8862903852:AAEj2hLOZtQ1cXCggrwgxacTF0Zga5YPNwU"
 
-if not BOT_TOKEN or not API_ID or not API_HASH:
-    raise ValueError("API_ID, API_HASH and BOT_TOKEN environment variables are required")
-
 ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip().isdigit()]
 
 OUTPUT_FOLDER = "downloads"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-CREDIT = "Movie Bot"
+CREDIT = "KMM_MOD1"
 COOKIES_FILE = "cookies.txt"
 
 SESSION = requests.Session()
