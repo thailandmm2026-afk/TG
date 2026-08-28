@@ -45,9 +45,9 @@ except Exception:
 # ──────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────
-API_ID = ("API_ID", 35429420))
-API_HASH = ("API_HASH", "0f2cf1a83944dc9c3b33398d0a07215d")
-BOT_TOKEN = ("BOT_TOKEN", "8862903852:AAEj2hLOZtQ1cXCggrwgxacTF0Zga5YPNwU")
+API_ID = 35429420
+API_HASH = "0f2cf1a83944dc9c3b33398d0a07215d"
+BOT_TOKEN = "8862903852:AAEj2hLOZtQ1cXCggrwgxacTF0Zga5YPNwU"
 
 if not BOT_TOKEN or not API_ID or not API_HASH:
     raise ValueError("API_ID, API_HASH and BOT_TOKEN environment variables are required")
